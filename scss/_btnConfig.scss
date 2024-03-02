@@ -25,3 +25,6 @@
   @include set-bg($secondary-color);
 }
 
+/* In here, we are utilizing scss codes that uses Sass featuers such as imports, placeholders (%btn), extending, and mixins (set-bg).
+These scss codes defines a placeholder selector for common button styles, extends that placeholder for specific button classes (btn-primary and btn-secondary), and applies additional styles to each of them using mixins and nested selectors.
+*/

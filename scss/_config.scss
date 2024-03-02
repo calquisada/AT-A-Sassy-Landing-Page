@@ -2,3 +2,9 @@ $font-stack: Trebuchet MS, Arial, sans-serif;
 $light-color: #FFC300;
 $primary-color: #000814;
 $secondary-color: #a2d0fc;
+
+/* In these codes, we are setting the variables in Sass.
+Using variables and declaring them allows us for easier maintenance and consistency in our stylesheet.
+Instead of repeating color values or font stacks throughout our CSS, we can define them once as variables and use the variables throughout our stylesheets.
+This makes it easier to update colors or fonts later as we only need to change the value of the variables rather than every single codes where color and fonts are.
+*/

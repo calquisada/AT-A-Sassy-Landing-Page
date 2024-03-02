@@ -21,3 +21,10 @@
     overflow: auto;
   }
   
+  /* The function codes at the very top is a Sass function named text-color-pcker that takes one parameter: color. Inside the function, it checks the lightness of the color
+  using the 'lightness' function. This function is designed to dynamiclly determine whether black or white text should be used based on the background color provided.
+  
+  The second part of the codes is a Sass mixin named set-bg that takes one parameter: color. It sets the background color of the element to the color passed as an argument.
+
+  The thrid part of the codes is a regular CSS rule for a classs named .box.
+  */

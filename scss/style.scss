@@ -85,3 +85,11 @@ $spaceamounts: (1,2,3,4,5);
     padding: #{$space}rem 0;
   }
 }
+
+/* These SCSS codes are a combination of importing the other SCSS files, defining global stylesm defining styles for specific elements and classes, and creating margin and padding utility
+classes using an @each loop. The codes in this file sets global styles, define specific styles for elements and classesm and creates utility classes for margin and padding.
+
+In regards to the hero class, it defines styles for an element with the class 'hero'. It uses the set-bg mixin that is defined in _utilities.scss to set the background color to primary color
+and sets the height to 600px. There's nested styling for nav element, including styles for ul, li, and the a elements within the nac. Also there are styling for .hero-content, which includes centering content 
+vertically and horizontally and specific styles for img and h1 elements inside .hero-content.
+*/
